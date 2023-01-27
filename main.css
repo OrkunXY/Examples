@@ -13,6 +13,9 @@ body {
     height: 100vh;
 }
 
+
+
+
 nav {
     background-color: #333;
     color: #36b;
@@ -45,6 +48,7 @@ main {
     color: ivory;
     justify-content: center;
     line-height: 1.6;
+    flex-direction: column;
 }
 
 figure img {
@@ -72,3 +76,72 @@ footer p{
     font-size: 30px;
     
 }
+.welcome{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+/* Mobile (Phone)
+@media(max-width: 600px) {
+    body {
+        font-size: small;
+        flex-direction: column;
+    }
+    nav {
+        font-size: 18px;
+        flex-direction: column;
+    }
+    ul {
+        flex-direction: column;
+
+    }
+    main {
+        font-size: 16px;
+        flex-direction: column;
+    }
+}
+
+
+@media (min-width: 600px) and (max-width: 900px) {
+    
+    nav {
+        font-size: 20px;
+        flex-direction: column;
+    }
+    main {
+        font-size: 18px;
+        flex-direction: column;
+    }
+    body {
+        font-size: medium;
+        flex-direction: column;
+    }
+}
+
+
+@media (min-width: 900px) {
+    
+    body {
+        font-size: large;
+        flex-direction: coloum;
+    }
+    nav {
+        font-size: 24px;
+        flex-direction: column;
+    }
+    main {
+        font-size: 20px;
+        flex-direction: column;
+        
+    }
+    
+} */
+@media  (max-width:750px){
+    .welcome{
+        flex-direction: column;
+    }
+}
+    
+
+
